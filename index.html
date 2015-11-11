@@ -1,1 +1,97 @@
-Hello World.
+<!DOCTYPE html>
+</html>
+    <head>
+        <title>Archer70</title>
+        <!-- Fonts. -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="fonts/octicons/octicons.css">
+
+        <!-- Syntax highligher. -->
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/default.min.css">
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+    <body>
+        <div id="header">
+            <div class="centered-container">
+                <span id="logo">Archer70</span>
+                <span id="tagline">Scott Christianson</span>
+            </div>
+        </div>
+        <div id="content" class="centered-container">
+            <div id="right">
+                <h4>BinaryConverter <span class="octicon octicon-ruby"></span></h4>
+                <div>
+                    Converts non-negative binary numbers to decimal integers.         
+<pre><code class="ruby">Converter.new(101).to_base_ten
+##> 5
+</code></pre>
+                    <a href="https://github.com/Archer70/BinaryConverter" class="button shadow float-right">Fork &nbsp;<span class="octicon octicon-repo-forked"></span></a>
+                    
+                    <br class="clear" />
+                </div>
+
+                <hr />
+
+                <h4>FizzBuzz <span class="octicon octicon-ruby"></span></h4>
+                <div>
+                    A small FizzBuzz example.         
+<pre><code class="ruby">fizz_buzz = FizzBuzz.new
+
+# For individual numbers:
+fizz_buzz.get_output_for 3
+##> "fizz"
+fizz_buzz.get_output_for 5
+##> "buzz"
+fizz_buzz.get_output_for 15
+##> "fizz buzz"
+
+# Or a sequence:
+fizz_buzz.build_string 15
+##> "1 2 fizz 4 buzz fizz 7 8 fizz buzz 11 fizz 13 14 fizz buzz"
+</code></pre>
+                    <a href="https://github.com/Archer70/RubyFizzBuzz" class="button shadow float-right">Fork &nbsp;<span class="octicon octicon-repo-forked"></span></a>
+                    
+                    <br class="clear" />
+                </div>
+                <br class="clear" />
+            </div>
+            <div id="left">
+                <h4>LiteTest <span class="octicon octicon-code"></span></h4>
+                <div>
+                    A lightweight unit test framework written in PHP. Still a work in progress.         
+<pre><code class="php">&lt;?php
+use LiteTest\src\TestCase;
+
+class MyTest extends TestCase {
+    public function testIsTrue() {
+        $this-&gt;assert(true);
+        $this-&gt;assertIsArray([]);
+        $this-&gt;assertEmptyArray([]);
+        // etc.
+    }
+}
+</code></pre>
+                    <a href="https://github.com/Archer70/LiteTest" class="button shadow float-left">Fork &nbsp;<span class="octicon octicon-repo-forked"></span></a>
+                    
+                    <br class="clear-left"/>
+                </div>
+
+                <hr/>
+
+                <h4>GitHub Page <span class="octicon octicon-mark-github"></span></h4>
+                <div>
+                    The HTML page you're reading right now.           
+<pre><code class="html">&lt;html&gt;stuff&lt;/html&gt;</code></pre>
+                    <a href="https://github.com/Archer70/Archer70.github.io" class="button shadow float-left">Fork &nbsp;<span class="octicon octicon-repo-forked"></span></a>
+                    
+                    <br class="clear" />
+                </div>
+                <br class="clear-left" />
+            </div>
+            
+        </div>
+    </body>
+</html>
